@@ -14,11 +14,8 @@ class Author
     end
 
     def books
-        authors_books = Book_author.all.select do | book_author |
-            book_author.author == self
-        end
-        authors_books.map do | book |
-            book.title
+        Book.all.select do | book |
+            book.author == self
         end
     end
 
