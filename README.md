@@ -45,20 +45,20 @@ We've provided you with a console that you can use to test your code. To enter a
 ### `Book`
 Build the following methods on the Book class
 
-- `Book.all`
-should return all of the books
-- `Book#author`
-should return the author instance who wrote this book
-- `Book#title`
-should return the title of the book
-- `Book#word_count`
-should return the number of words in the book
+<!-- - `Book.all`
+should return all of the books -->
+<!-- - `Book#author`
+should return the author instance who wrote this book -->
+<!-- - `Book#title`
+should return the title of the book -->
+<!-- - `Book#word_count`
+should return the number of words in the book -->
 
 ### `Author`
 Build the following methods on the Author class
 
-- `Author.all`
-should return all of the authors
+<!-- - `Author.all`
+should return all of the authors -->
 - `Author#books`
 should return all of the books an author has written
 - `Author#write_book`
@@ -71,6 +71,6 @@ should return the author instance who has written the most words
 ### `BookAuthor`
 Build the following methods on the BookAuthor class
 
-- `BookAuthor.all`
-should return all of the instance for BookAuthor class
+<!-- - `BookAuthor.all`
+should return all of the instance for BookAuthor class -->
 
